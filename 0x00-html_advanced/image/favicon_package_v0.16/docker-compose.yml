@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+ Myql:
+  image: 'mysql:latest'
+  container_name: 'Myql'
+  environment:
+   MYSQL_USER: vincent
+   MYSQL_ROOT_PASSWORD: 501000kv
+   MYSQL_PASSWORD: 501000kv
